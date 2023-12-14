@@ -1,0 +1,39 @@
+.login{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.signup{
+    width: 100vw;
+    height: 100vh;
+    /* overflow-y: scroll; */
+}
+
+form{
+    width: 20em;
+    height: fit-content;
+   
+}
+
+@media (max-height:700px) and (min-width:450px) {
+    form{
+        width: 30em;
+        height: fit-content;
+       /* text-align: center; */
+       
+    }
+    .Fields{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+}
+
+
+
+
